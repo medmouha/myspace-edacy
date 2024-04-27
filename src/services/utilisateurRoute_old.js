@@ -2,7 +2,7 @@ const express= require('express');
 const db = require('../db');
 const router= express.Router();
 
-const parametreRoute = require('./parametreRoute')
+const parametreRoute = require('../router/parametreRoute')
 
 router.get('/', (req, res)=>{
     const usersJson = [];
